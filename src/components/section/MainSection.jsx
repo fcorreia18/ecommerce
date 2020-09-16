@@ -2,7 +2,17 @@ import React from 'react';
 import TopCategories from './TopCategories';
 import SectionTitle from './SectionTitle';
 import Products from './Products';
-import '../../assets/css/style.min.css'
+import '../../assets/css/style.min.css';
+import '../../assets/css/nouislider.min.css';
+import '../../assets/css/slick-theme.css';
+import '../../assets/css/slick.css';
+import '../../assets/js/jquery.min.js';
+import '../../assets/js/bootstrap.min.js';
+import '../../assets/js/slick.min.js';
+import '../../assets/js/nouislider.min.js';
+import '../../assets/js/jquery.zoom.min.js';
+
+import '../App.css';
 
 export default function MainSection(params) {
     return (

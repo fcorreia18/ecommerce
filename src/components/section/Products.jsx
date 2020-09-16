@@ -1,5 +1,14 @@
 import React from 'react';
 import '../../assets/css/style.min.css'
+import '../../assets/css/nouislider.min.css';
+import '../../assets/css/slick-theme.css';
+import '../../assets/css/slick.css';
+import '../../assets/js/jquery.min.js';
+import '../../assets/js/bootstrap.min.js';
+import '../../assets/js/slick.min.js';
+import '../../assets/js/nouislider.min.js';
+import '../../assets/js/jquery.zoom.min.js';
+
 import product01 from '../../assets/img/product01.png';
 import product02 from '../../assets/img/product02.png';
 import product03 from '../../assets/img/product03.png';
