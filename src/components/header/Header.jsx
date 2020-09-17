@@ -2,7 +2,6 @@ import React from 'react';
 import LogoHeader from './LogoHeader';
 import SearchBarHeader from './SearchBarHeader';
 import HeaderAccount from './HeaderAccount';
-import '../../assets/css/style.min.css'
 
 
 export default function Header(params) {
