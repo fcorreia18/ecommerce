@@ -8,7 +8,7 @@ import product05 from '../../assets/img/product05.png';
 
 
 
-export default function Products(params) {
+export default function Products({ discount, type, image }) {
     return (
         <div>
             {/* produto  */}

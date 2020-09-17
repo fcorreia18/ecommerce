@@ -86,14 +86,14 @@ export default function MainSection(params) {
                                                 showArrows={false}
                                                 renderArrow={false}
                                                 pagination={false}>
+                                                <Products discount={-30} type={"new"} image={"product01"} />
+                                                <Products type={"new"} image={"product02"} />
+                                                <Products type={"new"} image={"product03"} />
                                                 <Products />
+                                                <Products discount={-10} type={"new"} image={"product04"} />
                                                 <Products />
-                                                <Products />
-                                                <Products />
-                                                <Products />
-                                                <Products />
-                                                <Products />
-                                                <Products />
+                                                <Products discount={-30} image={"product05"} />
+                                                <Products discount={-30} type={"new"} image={"product03"} />
                                             </Carousel>
                                         </div>
                                         <div id="slick-nav-1" className="products-slick-nav" >
