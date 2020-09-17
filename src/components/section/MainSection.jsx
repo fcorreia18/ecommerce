@@ -2,6 +2,7 @@ import React from 'react';
 import TopCategories from './TopCategories';
 import SectionTitle from './SectionTitle';
 import Products from './Products';
+import Banner from '../banner/Banner';
 import Carousel from 'react-elastic-carousel';
 
 
@@ -23,7 +24,7 @@ export default function MainSection(params) {
                 <div className="container">
                     {/* row */}
                     <div className="row">
-                        <SectionTitle />
+                        <SectionTitle Name={"Novos Produtos"} />
 
                         {/* Tab de produtos & slick */}
                         <div className="col-md-12">
@@ -63,6 +64,7 @@ export default function MainSection(params) {
                 {/* /container */}
             </div>
             {/* /SECTION */}
+            <Banner />
 
         </div>
     );
