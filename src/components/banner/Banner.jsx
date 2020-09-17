@@ -39,7 +39,7 @@ export default function Banner(params) {
                                 </ul>
                                 <h2 class="text-uppercase">vejas as promoções dessa</h2>
                                 <p>Nova colecção com até 50% de desconto</p>
-                                <a class="primary-btn cta-btn" href="#">Encomende agora</a>
+                                <a class="primary-btn cta-btn" href="#">Ver Mais</a>
                             </div>
                         </div>
                     </div>

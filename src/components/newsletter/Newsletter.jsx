@@ -17,17 +17,21 @@ export default function newsletter(params) {
                                     <button class="newsletter-btn"><i class="fa fa-envelope"></i> Enviar</button>
                                 </form>
                                 <ul class="newsletter-follow">
+
                                     <li>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://­www.linkedin.com/in/­francisco-correia-239­3411a4" target="_blank"><i class="fa fa-linkedin"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="https://github.com/FranciscoCorreia28" target="_blank"><i class="fa fa-github"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://web.facebook.com/franciscomartins.martins.5686/" target="_blank"><i class="fa fa-facebook" target="_blank"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fa fa-instagram"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
                                     </li>
                                 </ul>
                             </div>
