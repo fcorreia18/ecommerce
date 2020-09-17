@@ -19,7 +19,7 @@ export default function SearchBarHeader(params) {
                                     </select>
 
                                 </li>
-                                <input className="input search" placeholder="Search here" />
+                                <input className="input search" placeholder="pesquisa pelo nome do produto" />
                                 <li>
                                     <button className="search-btn">pesquisar</button>
                                 </li>

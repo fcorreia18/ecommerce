@@ -65,7 +65,52 @@ export default function MainSection(params) {
             </div>
             {/* /SECTION */}
             <Banner />
+            {/* SECTION */}
+            <div className="section">
+                {/* container */}
+                <div className="container">
+                    {/* row */}
+                    <div className="row">
+                        <SectionTitle Name={"Mais Vendidos"} />
 
+                        {/* Tab de produtos & slick */}
+                        <div className="col-md-12">
+                            <div className="row">
+                                <div className="products-tabs">
+                                    {/* tab */}
+                                    <div id="tab1" className="tab-pane active">
+                                        <div className="products-slick" data-nav="#slick-nav-1">
+                                            <Carousel breakPoints={breakPoints}
+                                                enableAutoPlay={true}
+                                                autoPlaySpeed={3500}
+                                                showArrows={false}
+                                                renderArrow={false}
+                                                pagination={false}>
+                                                <Products />
+                                                <Products />
+                                                <Products />
+                                                <Products />
+                                                <Products />
+                                                <Products />
+                                                <Products />
+                                                <Products />
+                                            </Carousel>
+                                        </div>
+                                        <div id="slick-nav-1" className="products-slick-nav" >
+                                        </div>
+
+                                    </div>
+                                    {/* /tab */}
+                                </div>
+                            </div>
+                        </div>
+                        {/* Products tab & slick */}
+                    </div>
+                    {/* /row */}
+                </div>
+                {/* /container */}
+            </div>
+            {/* /SECTION */}
         </div>
     );
 };
