@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Footer(params) {
+    const date = new Date().getFullYear();
     return (
         <div>
 
@@ -14,26 +15,26 @@ export default function Footer(params) {
                         <div class="row">
                             <div class="col-md-3 col-xs-6">
                                 <div class="footer">
-                                    <h3 class="footer-title">About Us</h3>
+                                    <h3 class="footer-title">Sobre</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 								incididunt ut.</p>
                                     <ul class="footer-links">
-                                        <li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
-                                        <li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
-                                        <li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
+                                        <li><a href="#"><i class="fa fa-map-marker"></i> Camama/Rua 8</a></li>
+                                        <li><a href="#"><i class="fa fa-phone"></i>+244-925-01-26-72</a></li>
+                                        <li><a href="francisco.correia1804@gmail.com"><i class="fa fa-envelope-o"></i>francisco.correia1804@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="col-md-3 col-xs-6">
                                 <div class="footer">
-                                    <h3 class="footer-title">Categories</h3>
+                                    <h3 class="footer-title">Categorias</h3>
                                     <ul class="footer-links">
-                                        <li><a href="#">Hot deals</a></li>
+                                        <li><a href="#">Promoções</a></li>
                                         <li><a href="#">Laptops</a></li>
                                         <li><a href="#">Smartphones</a></li>
                                         <li><a href="#">Cameras</a></li>
-                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Accessórios</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -42,26 +43,26 @@ export default function Footer(params) {
 
                             <div class="col-md-3 col-xs-6">
                                 <div class="footer">
-                                    <h3 class="footer-title">Information</h3>
+                                    <h3 class="footer-title">Informação</h3>
                                     <ul class="footer-links">
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Orders and Returns</a></li>
-                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Sobre nós</a></li>
+                                        <li><a href="#">Contacta-nos</a></li>
+                                        <li><a href="#">Politica de privacidade</a></li>
+                                        <li><a href="#">Encomendas e entregas</a></li>
+                                        <li><a href="#">Termos & Condições</a></li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="col-md-3 col-xs-6">
                                 <div class="footer">
-                                    <h3 class="footer-title">Service</h3>
+                                    <h3 class="footer-title">Serviço</h3>
                                     <ul class="footer-links">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="#">View Cart</a></li>
-                                        <li><a href="#">Wishlist</a></li>
-                                        <li><a href="#">Track My Order</a></li>
-                                        <li><a href="#">Help</a></li>
+                                        <li><a href="#">Minha Conta</a></li>
+                                        <li><a href="#">Ver Carrinho</a></li>
+                                        <li><a href="#">Lista de desejos</a></li>
+                                        <li><a href="#">Ver as minhas ordens </a></li>
+                                        <li><a href="#">Ajuda</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -89,7 +90,7 @@ export default function Footer(params) {
                                 <span class="copyright">
 
                                     Copyright &copy;
-							<script>{document.write(new Date().getFullYear())}</script> todos direitos reservados <i class="fa fa-heart-o" aria-hidden="true"></i> por: <a
+							<script></script> todos direitos reservados por: <a
                                         href="https://github.com/FranciscoCorreia28" target="_blank">Francisco Correia</a>
 
                                 </span>
