@@ -84,7 +84,6 @@ export default function MainSection(params) {
                                                 enableAutoPlay={true}
                                                 autoPlaySpeed={3500}
                                                 showArrows={false}
-                                                renderArrow={false}
                                                 pagination={false}>
                                                 <Products discount={-30} type={"new"} image={"product01"} />
                                                 <Products type={"new"} image={"product02"} />

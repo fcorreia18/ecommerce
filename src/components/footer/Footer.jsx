@@ -21,7 +21,7 @@ export default function Footer(params) {
                                     <ul class="footer-links">
                                         <li><a href="#"><i class="fa fa-map-marker"></i> Camama/Rua 8</a></li>
                                         <li><a href="#"><i class="fa fa-phone"></i>+244-925-01-26-72</a></li>
-                                        <li><a href="https://gmail.com/send-mail/francisco.correia1804@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i>francisco.correia1804@gmail.com</a></li>
+                                        <li><a href="https://gmail.com/send-mail/francisco.correia1804@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i><small>francisco.correia1804@gmail.com</small></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -80,18 +80,18 @@ export default function Footer(params) {
                         <div class="social-links-warp">
                             <div class="container">
                                 <div class="social-links">
-                                    <a href="https://gmail.com/send-mail/francisco.correia1804@gmail.com" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i><span>g+plus</span></a>
-                                    <a href="https://­www.linkedin.com/in/­francisco-correia-239­3411a4" target="_blank" class="tumblr"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
+                                    <a href="https://gmail.com/send-mail/francisco.correia1804@gmail.com" target="_blank" rel="noopener noreferrer" class="google-plus"><i class="fa fa-google-plus"></i><span>g+plus</span></a>
+                                    <a href="https://­www.linkedin.com/in/­francisco-correia-239­3411a4" target="_blank" rel="noopener noreferrer" class="tumblr"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
                                     <a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
-                                    <a href="https://github.com/FranciscoCorreia28" target="_blank" class="pinterest"><i class="fa fa-github"></i><span>GitHub</span></a>
-                                    <a href="https://web.facebook.com/franciscomartins.martins.5686/" target="_blank" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+                                    <a href="https://github.com/FranciscoCorreia28" target="_blank" rel="noopener noreferrer" class="pinterest"><i class="fa fa-github"></i><span>GitHub</span></a>
+                                    <a href="https://web.facebook.com/franciscomartins.martins.5686/" target="_blank" rel="noopener noreferrer" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
                                     <a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
                                     <a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
                                 </div>
 
                                 <p class="text-white text-center mt-5" style={{ fontSize: ".9em" }} >Copyright &copy;
                                 {date} todos direitos reservados por: <a
-                                        href="https://­www.linkedin.com/in/­francisco-correia-239­3411a4" target="_blank">FRANCISCO CORREIA</a></p>
+                                        href="https://­www.linkedin.com/in/­francisco-correia-239­3411a4" target="_blank" rel="noopener noreferrer">FRANCISCO CORREIA</a></p>
                             </div>
                         </div>
                     </div>

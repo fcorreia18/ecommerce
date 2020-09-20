@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/style.min.css'
+import { Link } from 'react-router-dom'
 
 export default function NavBar(params) {
     return (
@@ -11,13 +11,19 @@ export default function NavBar(params) {
                     {/* responsive-nav */}
                     <div id="responsive-nav">
                         {/* NAV */}
-                        <ul className="main-nav nav navbar-nav">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Categorias</a></li>
-                            <li><a href="#">Laptops</a></li>
-                            <li><a href="#">Smartphones</a></li>
-                            <li><a href="#">Cameras</a></li>
-                            <li><a href="#">Accessorios</a></li>
+                        <ul className="main-nav main-navbar">
+                            <Link to="/">
+                                <li><a href="#" target="_blank">Home</a></li>
+                            </Link>
+                            <Link to="/store">
+                                <li><a href="#" target="_blank">Categorias</a></li>
+                            </Link>
+                            <Link to="product">
+                                <li><a href="#" target="_blank">Produto</a></li>
+                            </Link>
+                            <Link to="checkout">
+                                <li><a href="#" target="_blank">Checkout</a></li>
+                            </Link>
                         </ul>
                         {/* /NAV */}
                     </div>

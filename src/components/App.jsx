@@ -1,20 +1,23 @@
 import React from 'react';
-import MainHeader from './header/MainHeader';
-import NavBar from './navbar/NavBar';
-import MainSection from './section/MainSection';
-import Newsletter from './newsletter/Newsletter';
-import Footer from './footer/Footer';
+import Home from './Home';
+import Store from './Store';
+import Product from './Product';
+import Checkout from './Checkout';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 export default function () {
 
     return (
-        <div>
-            <MainHeader />
-            <NavBar />
-            <MainSection />
-            <Newsletter />
-            <Footer />
-        </div>
+        <Router>
+            <div>
+                <Switch>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/store" component={Store} />
+                    <Route path="/product" component={Product} />
+                    <Route path="/checkout" component={Checkout} />
+                </Switch>
+            </div>
+        </Router>
     );
 }

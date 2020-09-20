@@ -625,7 +625,13 @@ body {
   /*----------------------------*\
       Main nav
   \*----------------------------*/
-  
+  .main-navbar{
+  display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-between;
+    max-width: 30%;
+  }
   .main-nav>li+li {
     margin-left: 30px
   }

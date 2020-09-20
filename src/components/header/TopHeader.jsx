@@ -18,7 +18,7 @@ export default function TopHeader(params) {
                         </ul>
                     </div>
                 </div>
-                {/* END TOP HEADER  */}
+                {/* END TOP HEADER */}
             </header>
         </div>
     );
