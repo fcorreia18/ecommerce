@@ -1,6 +1,4 @@
 import React from 'react';
-import '../../assets/css/style.min.css'
-
 export default function SectionTitle({ Name }) {
     return (
         <div>

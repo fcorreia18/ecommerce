@@ -1,19 +1,19 @@
 import React from 'react';
 
-export default function Breadcrumb(params) {
+export default function CheckoutBreadcrumb(params) {
     return (
         <>
             {/* BREADCRUMB  */}
-            <div id="breadcrumb" class="section">
+            <div id="breadcrumb" className="section">
                 {/* container  */}
-                <div class="container">
+                <div className="container">
                     {/* row  */}
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 class="breadcrumb-header">Checkout</h3>
-                            <ul class="breadcrumb-tree">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <h3 className="breadcrumb-header">Checkout</h3>
+                            <ul className="breadcrumb-tree">
                                 <li><a href="#">Home</a></li>
-                                <li class="active">Checkout</li>
+                                <li className="active">Checkout</li>
                             </ul>
                         </div>
                     </div>
