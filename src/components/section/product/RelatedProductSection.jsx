@@ -1,10 +1,9 @@
-import React from 'reac';
+import React from 'react';
 //Import das imagens
 import product01 from '../../../assets/img/product01.png'
 import product02 from '../../../assets/img/product02.png';
 import product03 from '../../../assets/img/product03.png';
 import product04 from '../../../assets/img/product04.png';
-import product05 from '../../../assets/img/product05.png';
 
 export default function RelatedProductSection(params) {
     return (
@@ -26,7 +25,7 @@ export default function RelatedProductSection(params) {
                         <div class="col-md-3 col-xs-6">
                             <div class="product">
                                 <div class="product-img">
-                                    <img src="./img/product01.png" alt="" />
+                                    <img src={product01} alt="" />
                                     <div class="product-label">
                                         <span class="sale">-30%</span>
                                     </div>
@@ -54,7 +53,7 @@ export default function RelatedProductSection(params) {
                         <div class="col-md-3 col-xs-6">
                             <div class="product">
                                 <div class="product-img">
-                                    <img src="./img/product02.png" alt="" />
+                                    <img src={product02} alt="" />
                                     <div class="product-label">
                                         <span class="new">novo</span>
                                     </div>
@@ -89,7 +88,7 @@ export default function RelatedProductSection(params) {
                         <div class="col-md-3 col-xs-6">
                             <div class="product">
                                 <div class="product-img">
-                                    <img src="./img/product03.png" alt="" />
+                                    <img src={product03} alt="" />
                                 </div>
                                 <div class="product-body">
                                     <p class="product-category">Categoria</p>
@@ -113,13 +112,13 @@ export default function RelatedProductSection(params) {
                                 </div>
                             </div>
                         </div>
-					/product
+                        {/* /product */}
 
-					product
-					<div class="col-md-3 col-xs-6">
+                        {/* product */}
+                        <div class="col-md-3 col-xs-6">
                             <div class="product">
                                 <div class="product-img">
-                                    <img src="./img/product04.png" alt="" />
+                                    <img src={product04} alt="" />
                                 </div>
                                 <div class="product-body">
                                     <p class="product-category">Categoria</p>

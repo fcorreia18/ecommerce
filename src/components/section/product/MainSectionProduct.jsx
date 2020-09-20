@@ -1,4 +1,5 @@
 import React from 'react';
+import RelatedProductSection from './RelatedProductSection'
 //Import das imagens
 import product01 from '../../../assets/img/product01.png'
 import product03 from '../../../assets/img/product03.png';
@@ -336,6 +337,7 @@ export default function MainSectionProduct(params) {
                 {/* /container  */}
             </div>
             {/* /SECTION  */}
+            <RelatedProductSection />
         </>
     );
 };
