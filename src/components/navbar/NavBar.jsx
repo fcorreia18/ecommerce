@@ -9,7 +9,7 @@ export default function NavBar(params) {
                 {/* container */}
                 <div className="container">
                     {/* responsive-nav */}
-                    <div id="responsive-nav">
+                    <div id="responsive-nav" >
                         {/* NAV */}
                         <ul className="main-nav main-navbar">
                             <Link to="/">

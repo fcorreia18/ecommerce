@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../assets/css/style.min.css'
+
+//Importando as imagens
 import shop01 from '../../assets/img/shop01.png';
 import shop02 from '../../assets/img/shop02.png';
 import shop03 from '../../assets/img/shop03.png';

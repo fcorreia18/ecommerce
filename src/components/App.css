@@ -632,6 +632,16 @@ body {
     justify-content: space-between;
     max-width: 400px;
   }
+  .chowzb, .hCVuYx{
+    border-radius: 0% !important;
+    width: 25px !important;
+    min-width: 25px !important;
+  }
+  .chowzb:hover:enabled, .chowzb:focus:enabled{
+    color: #fff !important;
+    background-color: #D10024 !important;
+    box-shadow: 0 0 2px 0 #333 !important;
+  }
   .main-nav>li+li {
     margin-left: 30px
   }
@@ -2318,7 +2328,10 @@ body {
     .search-bar{
       max-width: 100%;
       width: 100%;
+      margin: auto !important;
+
     }
+   
     #footer{
       text-align: center;
     }

@@ -91,7 +91,9 @@ export default function Footer(params) {
 
                                 <p class="text-white text-center mt-5" style={{ fontSize: ".9em" }} >Copyright &copy;
                                 {date} todos direitos reservados por: <a
-                                        href="https://­www.linkedin.com/in/­francisco-correia-239­3411a4" target="_blank" rel="noopener noreferrer">FRANCISCO CORREIA</a></p>
+                                        href="https://­www.linkedin.com/in/­francisco-correia-239­3411a4" target="_blank" rel="noopener noreferrer"
+                                        style={{ color: "grey" }}
+                                    >FRANCISCO CORREIA</a></p>
                             </div>
                         </div>
                     </div>

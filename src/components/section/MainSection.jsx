@@ -36,7 +36,6 @@ export default function MainSection(params) {
                                             <Carousel breakPoints={breakPoints}
                                                 enableAutoPlay={true}
                                                 autoPlaySpeed={3500}
-                                                showArrows={false}
                                                 renderArrow={false}
                                                 pagination={false}>
                                                 <Products />
@@ -83,7 +82,6 @@ export default function MainSection(params) {
                                             <Carousel breakPoints={breakPoints}
                                                 enableAutoPlay={true}
                                                 autoPlaySpeed={3500}
-                                                showArrows={false}
                                                 pagination={false}>
                                                 <Products discount={-30} type={"new"} image={"product01"} />
                                                 <Products type={"new"} image={"product02"} />
