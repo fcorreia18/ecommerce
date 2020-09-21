@@ -3,7 +3,7 @@ import Home from './Home';
 import Store from './Store';
 import Product from './Product';
 import Checkout from './Checkout';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 export default function () {
